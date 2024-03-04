@@ -1,0 +1,470 @@
+*{box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+    
+   }
+
+   .navbar-brand{font-family: 'Grape Nuts', cursive;
+                 font-weight: bolder;
+                 
+
+   }
+
+.first{
+    background-color: rgba(173, 216, 230, 1
+    );
+    
+    
+}
+
+
+
+.home a{margin-left: 30px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 400;
+
+}
+
+.second{
+    background-image:linear-gradient(to top,rgba(153,154,158,0.3),rgba(153,154,158,0.3)) ,url(../images/img_1\ \(2\).jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+          
+
+}
+
+@media only screen and (max-width:768px){
+  .aboutus2{margin-top: 20px;}
+}
+
+@media only screen and (min-width: 768px) {
+  .inner{padding:100px;
+}
+
+.form{
+  background-color: rgba(0, 0, 0, 0.3);
+  line-height: 2.5;
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-bottom: 120px;
+  font-family: serif;
+  color: white;
+
+}
+.form2{padding-top: 100px;
+  color: white;
+       
+
+}
+
+.form2 h2{
+  font-weight: 700;
+
+
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+  .inner{padding:0px;
+  }
+  
+  .form{
+    background-color: rgba(0, 0, 0, 0.3);
+    line-height: 1.5;
+    font-family: serif;
+    color: white;
+    
+  
+  }
+
+  .form input{width: 50% !important;
+
+  }
+
+  .form2 h2{font-size: 15px;
+    color: white;
+    font-weight: 700;
+
+  }
+  
+
+
+}
+
+
+
+/* .inner{padding: 100px; */
+
+/* } */
+
+
+.rooms2 a{color: black;
+          font-size: 12px;
+          width: 80%;
+
+}
+
+
+
+.about{margin-top: 100px;
+
+}
+
+.ourrooms{margin-top: 150px;
+
+}
+
+.readmore{text-decoration: none;
+          margin-left: 250px;
+          color: black;
+          font-family: sans-serif;
+          font-size: medium;
+
+}
+
+.readmore:hover{color: blue;
+
+}
+
+.aboutus2 img{padding-left: 20px;
+
+}
+
+.aboutus2 img:hover{
+  transition: transform 0.3s ease;
+  transform: scale(1.05,1.05); /* Increase the scale factor as desired */
+
+}
+
+.blog a{text-decoration: none;
+        margin-left: 280px;
+        color: black;
+
+}
+
+.blog a:hover{color: blue;
+
+}
+
+.card:hover{
+    box-shadow: 12px 21px 34px rgba(173, 216, 230, 0.8
+    ) !important;
+  }
+
+
+  .visualshowcase{margin-top: 100px;
+
+  }
+
+.gallery{overflow: hidden;
+
+}
+
+.gallery img:hover{
+  transition: transform 0.3s ease;
+  transform: scale(1.05,1.05); /* Increase the scale factor as desired */
+
+
+}
+
+
+.blogimg img:hover{
+  transition: transform 0.3s ease;
+  transform: scale(1.05,1.05); /* Increase the scale factor as desired */
+
+}
+
+@media only screen and (min-width: 768px) {
+.footer{
+    background-color:rgba(173, 216, 230, 0.8
+    );
+    padding:80px ;
+  
+  }
+}
+@media only screen and (max-width: 768px) {
+.footer{
+  background-color:rgba(173, 216, 230, 0.8
+  );
+}
+
+.footer p{margin-left: 0px !important;}
+
+.phone h3{text-align: start !important;}
+
+.news h3{text-align: start !important;}
+
+.news input{margin-left: 0px !important;}
+}
+
+.footer i:hover{
+                   color: whitesmoke !important;
+}
+
+  /* about us page */
+
+  .abanner{background-image:linear-gradient(to top,rgba(153,154,158,0.3),rgba(153,154,158,0.3)) ,url(../images/img_8.jpg);
+          background-size: 100%;
+          background-repeat: no-repeat;
+
+  }
+
+  @media only screen and (min-width: 768px) {
+   .abanner{ padding: 200px;}
+
+
+  }
+
+  @media only screen and (max-width: 600px)
+  {
+   .abanner{ padding: 65px;}
+  }
+
+  @media only screen and (max-width: 520px)
+  {
+   .abanner{ padding: 25px;}
+  }
+
+  @media only screen and (max-width: 461px)
+  {
+   .abanner{ padding: 25px;}
+  }
+
+  
+
+
+  .homeabout a{text-decoration: none;
+               color: white;
+
+  }
+
+  .homeabout a:hover{color: rgba(173, 216, 230,1
+    );
+
+  }
+
+  .history{
+    margin-top: 120px;
+
+
+  }
+
+  @media only screen and (min-width: 768px) {
+   
+  .bluehistory1{border-left: 1px solid black;
+    padding-left: 250px;
+    padding-right: 200px; }
+
+
+  }
+
+
+  .bluehistory{border-left: 1px solid black; }
+
+  
+  @media only screen and (min-width: 768px) {
+    .leader1 img{height: 225px;
+      width: 300px;
+      position: relative;
+      left: 100px;
+
+}
+
+.leader1{position: relative;
+  left: 100px;
+   display: inline-block;
+
+}
+
+.text{position: absolute;
+  bottom: 100px;
+  left: 300px !important;
+  font-family: serif;
+  font-size: 30px;
+
+}
+
+  }
+  
+  .leader1 img{height: 225px;
+    width: 300px;
+    position: relative;
+    outline: 1px solid black;
+    border: 5px solid rgba(173, 216, 230,1);
+}
+
+.text{position: absolute;
+  bottom: 100px;
+  left: 180px;
+  font-family: serif;
+  font-size: 30px;
+
+}
+
+.leader1{position: relative;
+  /* left: 100px; */
+   display: inline-block;
+   margin-bottom: 30px;
+    
+
+}
+
+
+  .leader2 img{
+               height: 225px;
+               width: 300px;
+               position: relative;
+               outline: 1px solid black;
+               border: 5px solid rgba(173, 216, 230,1);
+
+  }
+
+  
+
+  .leader2{
+    position: relative; 
+           display: inline-block;
+
+  }
+
+  
+
+
+  .text2{position: absolute;
+         bottom: 20px;
+         color: white;
+         font-family: serif;
+         font-size: 30px;
+
+
+  }
+@media only screen and (min-width: 768px) {
+.reservenow{ background-color:rgba(87, 66, 245, 0.2);
+             padding: 100px;
+
+
+}
+}
+.reservenow{ background-color:rgba(87, 66, 245, 0.2);}
+
+@media only screen and (max-width:768){
+  .btn{font-size: 5px!important;}
+
+}
+
+
+/* Family Rooms Css */
+
+.fbanner{ background-image:linear-gradient(to top,rgba(153,154,158,0.4),rgba(153,154,158,0.4)) ,url(../images/img_4\ \(4\).jpg);
+          background-size: 100%;
+          background-repeat: no-repeat;
+
+}
+
+@media only screen and (min-width: 768px) {
+  .fbanner{padding: 200px;}
+
+
+}
+
+.fdetails{margin-top: 120px;
+
+}
+
+.frooms .row{background-color:#f5fefd;
+
+}
+/* Premium Room css */
+
+.pbanner{ background-image:linear-gradient(to top,rgba(153,154,158,0.4),rgba(153,154,158,0.4)) ,url(../images/img_4\ \(2\).jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+@media only screen and (min-width: 768px) {
+  .pbanner{padding: 200px;}
+
+}
+
+@media only screen and (max-width: 768px) {
+  .pbanner{padding: -0px;}
+
+}
+
+/* menu css */
+
+.mbanner{ background-image:linear-gradient(to top,rgba(153,154,158,0.4),rgba(153,154,158,0.4)) ,url(../images/img_11.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+@media only screen and (min-width: 768px) {
+  .mbanner{padding: 200px;}
+
+}
+
+
+
+.food img{height: 350px;
+          width: 100%;
+          margin: 0px;
+          padding: 0px;
+
+}
+
+
+
+
+.indiancu:hover{background-color:#CCCCFF;
+
+}
+
+.italiancu:hover{background-color:#E6E6FA;
+
+}
+
+.chinesecu:hover{background-color:#D0F0C0;}
+
+
+.americancu:hover{background-color:#EE82EE;}
+
+
+/* blog css */
+
+.bbanner{ background-image:linear-gradient(to top,rgba(153,154,158,0.4),rgba(153,154,158,0.4)) ,url(../images/img_17.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+@media only screen and (min-width: 768px) {
+  .bbanner{padding: 200px;}
+
+}
+
+/* contact us css */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
